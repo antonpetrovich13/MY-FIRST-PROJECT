@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+/*--------------------*/
+body {
+  background: #e8e8e8 url(../img/Ellipse_1_copy.png) 144px 168px no-repeat; }
+  body .content {
+    padding: 168px 0px 137px 0px;
+    max-width: 841px;
+    margin: 0 auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #273d46; }
+
+.head {
+  margin: 0px 0px 65px 0px; }
+  .head p {
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    max-width: 67px;
+    margin: 0 auto; }
+  .head h1 {
+    max-width: 725px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 0px 0px 2px; }
+
+img {
+  -webkit-box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+  box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+  background-color: #fff;
+  padding: 10px;
+  margin: 0px 0px 86px 5px; }
+
+.botton .info {
+  margin: 0px 0px 39px 0px; }
+  .botton .info p {
+    opacity: 0.8;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0px 49px; }
+  .botton .info p:first-child {
+    margin: 0px 0px 40px 0px; }
+
+.botton ul {
+  padding: 0px 45px;
+  margin: 0px 0px 50px 0px; }
+  .botton ul li {
+    font-size: 20px;
+    line-height: 36px;
+    background: url(../img/icons/check.png) left no-repeat;
+    padding: 0px 0px 0px 35px; }
+  .botton ul li:nth-child(1) {
+    text-shadow: 0 1px 0 #000; }
+  .botton ul li:nth-child(2) {
+    color: #80b7b3;
+    font-style: italic; }
+  .botton ul li:nth-child(3) {
+    font-weight: bold; }
+  .botton ul li span:nth-child(4) {
+    opacity: 0.3;
+    text-decoration: line-through; }
+
+.botton div.bottom {
+  margin: 0px 45px;
+  width: 199px;
+  height: 44px;
+  -webkit-box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+  box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+  background-color: #80b7b3;
+  border-radius: 30px; }
+  .botton div.bottom span {
+    width: 110px;
+    height: 44px;
+    color: #ffffff;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    text-align: center;
+    padding: 17px;
+    background: url(../img/icons/arrow.svg) right no-repeat;
+    padding: 0px 30px; }
